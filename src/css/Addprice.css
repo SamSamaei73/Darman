@@ -1,0 +1,177 @@
+#addprice{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+}
+#addprice .PriceForm{
+    display: flex;
+    background: #1b2556b9;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    margin-bottom: 3rem;
+}
+#addprice .tittlePrice{
+    display: flex;
+    background: #050d31a9;
+    justify-content: center;
+    color: #fff;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+
+}
+#addprice .tittlePrice h3{
+    font-size: 25px;
+    margin-top: 0.6rem;
+}
+
+#addprice .selectPrite{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 0.7rem;
+    direction: rtl;
+}
+#addprice .inputPrices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 1rem;   
+}
+
+
+#addprice .inputPrices label{
+    font-size: 18px; 
+    width: 100%;
+    text-align: right;  
+    color: #fff;
+    margin-bottom: 1rem;
+}
+#addprice .insertPrite input{
+    width: 12rem;
+    height: 2.5rem;
+    margin-right: 0.5rem;
+    border-radius: 10px;
+    caret-color: red;
+    color: black;
+    
+}
+
+#addprice .newStyleInput{
+    text-align: center;
+    font-size: 20px;
+    width: 12rem ;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    
+}
+#addprice .gold {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#addprice .gold input{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    
+    
+}
+#addprice .buttonPrice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem;
+    width: 100%;
+}
+#addprice .buttonPrice button{
+    width: 10rem;
+    height: 2rem; 
+    border-radius: 5px; 
+    background-color: #4a9c4a; 
+    color: #fff;
+    font-size: 20px; 
+    border: none;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+
+}
+#addprice .buttonPrice button:hover{
+    background-color: #2ea32e;
+}
+#addprice .buttonPrice button:active{
+    box-shadow:none;
+}
+#addprice .buttonPrice button:focus{
+    outline: none;
+}
+
+#addprice .css-yk16xz-control {
+    text-align: center;
+    border-radius: 5px;
+    width: 12rem;
+    height: 2.5rem;
+    border: 0;
+  }
+  #addprice .css-1pahdxg-control{
+    text-align: center;
+    border-radius: 10px;
+    width: 12rem ;
+    height: 2.5rem;
+    margin-left: 1.5rem;
+}
+  #addprice .rmdp-input{
+    border-radius: 10px;
+    margin-top: 0 !important;
+    text-align: center;
+    font-size: 20px;
+    width: 12rem !important;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+  #addprice .newOnlyread{
+    background-color: rgb(104, 104, 104);  
+}
+  #addprice .newOnlyread::placeholder{
+    color: #fff;  
+}
+
+
+
+
+
+
+
+@media (max-width: 565px) {
+    #addprice .selectPrite{
+        
+        height: 40%;
+    
+    }
+}
+
+@media (min-width:920px) and (max-width:1250px){
+
+    #addprice .PriceForm{
+      
+        width: 95%;
+       
+    }
+}

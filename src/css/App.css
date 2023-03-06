@@ -1,0 +1,158 @@
+@font-face {
+  font-family: Vazir;
+  src: url('../../node_modules/vazir-font/dist/Vazir-Light.eot');
+  src: url('../../node_modules/vazir-font/dist/Vazir-Light.eot')
+      format('embedded-opentype'),
+    url('../../node_modules/vazir-font/dist/Vazir-Light.woff2') format('woff2'),
+    url('../../node_modules/vazir-font/dist/Vazir-Light.woff') format('woff'),
+    url('../../node_modules/vazir-font/dist/Vazir-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: VazirDigit;
+  src: url('../../node_modules/vazir-font/dist/Farsi-Digits/Vazir-Light-FD.eot');
+  src: url('../../node_modules/vazir-font/dist/Farsi-Digits/Vazir-Light-FD.eot')
+      format('embedded-opentype'),
+    url('../../node_modules/vazir-font/dist/Farsi-Digits/Vazir-Light-FD.woff2')
+      format('woff2'),
+    url('../../node_modules/vazir-font/dist/Farsi-Digits/Vazir-Light-FD.woff')
+      format('woff'),
+    url('../../node_modules/vazir-font/dist/Farsi-Digits/Vazir-Light-FD.ttf')
+      format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'IranNastaliq';
+  src: local('IranNastaliq'), url(../fonts/IranNastaliq.ttf) format('truetype');
+  font-family: 'Mj_NaskhTitrShadow';
+  font-family: 'Far-Nazanin';
+  src: local('Far-Nazanin'), url(../fonts/Far-Nazanin.ttf) format('truetype');
+  font-family: 'Mj_NaskhTitrShadow';
+  src: local('Mj_NaskhTitrShadow'), url(../fonts/Mj_NaskhTitrShadow.ttf) format('truetype');
+  font-family: 'FarDecorativeBold';
+  src: local('FarDecorativeBold'), url(../fonts/FarDecorativeBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bnazanin';
+  src: local('Bnazanin'), url(../fonts/Bnazanin.ttf) format('truetype');
+  
+}
+@font-face {
+  font-family: 'Kamran';
+  src: local('Far.Kamran'), url(../fonts/Far.Kamran.ttf) format('truetype');
+  
+}
+#Report-page {
+  background-image: url(../images/MpmFB0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.PrescriptionCustom{
+  background-image: url(../images/MpmFB0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.BimehCustom {
+  background-image: url(../images/MpmFB0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.PocketCustom {
+  background-image: url(../images/MpmFB0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.SpecificCustom {
+  background-image: url(../images/MpmFB0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.LoginCustom {
+  background-image: url(../images/MpmFB0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#Personal-style {
+  background: url(../images/624111.jpg) no-repeat center center/cover;
+  
+}
+#Search-Style{
+  background-image: url(../images/MpmFB0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Bnazanin' !important;
+  font-size: 13px !important;
+  min-height: 100vh;
+
+  /* background-image: url(../images/MpmFB0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+   */
+}
+
+
+
+/* .CommonBackGround{
+  
+}
+.LoginPageBackGround{
+  
+  background-image: url(../images/MpmFB0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+} */
+.AppStyle{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+
+}
+
+
+.forLable {
+  font-size: 10pt !important;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.DatePicker input {
+  height: 2.4rem !important;
+  border-radius: 5px;
+}
+.Vertical-center {
+  margin-top: 2.2rem !important;
+}

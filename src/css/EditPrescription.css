@@ -1,0 +1,70 @@
+#Edit-form * {
+    padding: 0;
+    margin: 0;
+}
+
+#Edit-form .container{
+    position:absolute;
+    max-width: 1300px;
+    margin: auto;
+    box-sizing: border-box;
+    height: 40rem;
+}
+#Edit-form .edit-info2 {
+    position: relative;
+    background-color: rgba(23, 158, 158, 0.61);
+    height: 18rem;
+    width: 60rem;
+    margin: 4rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    
+}
+#Edit-form .edit-input {
+    padding: 0.5rem;
+    float: left;
+}
+#Edit-form .edit-input label {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#Edit-form .edit-input input {
+    border-radius: 5px;
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+}
+#Edit-form .edit-input select {
+    border-radius: 5px;
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+}
+#Edit-form  #btn-info {
+    border-radius: 10px;
+    height: 2rem;
+    width: 8rem;
+    margin-top: 6.5rem;
+    margin-right: 22rem;
+    text-align: center;
+    background: rgba(228, 113, 71, 0.63);
+    font-size: 18px;
+    color: #fff;
+}
+#Edit-form  button:hover {
+    background-color: aqua;
+    color: black;
+}
+#Edity #PopupInput {
+    background: #7862f1ab;
+    border-radius: 20px;
+    width: 4rem;
+    color: #fff;
+    height: 1.6rem;
+    border: 0.5px solid green;
+}
+#Edity #PopupInput:hover {
+    background: aqua;
+    color: black;
+}

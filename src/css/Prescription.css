@@ -1,0 +1,331 @@
+.PrescriptionCustom  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+.PrescriptionCustom .TittleFirst{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    flex-direction: column;
+}
+.PrescriptionCustom .NewPrescription{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+.PrescriptionCustom .TableFirst {
+    width: 80em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.PrescriptionCustom .TittleSecond{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.PrescriptionCustom .NewPrice{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.PrescriptionCustom .NewPric .btnStyleP{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.PrescriptionCustom .TittleStyle{
+    width: 50%;
+    height: 4em;
+    background-color: #e7502382;
+    border-radius: 20px;
+    text-align: center;
+    color: azure;
+    font-family: 'FarDecorativeBold';
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PrescriptionCustom #Logo {
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    margin-left: -30rem;
+}
+.PrescriptionCustom #ImageStyle {
+    width: 9em;
+}
+.PrescriptionCustom .NewInput{
+    width: 30em;
+    height: 15em;
+    margin: auto;
+    margin-top: -5rem;
+    background-color: #1b255675;
+    border-radius: 15px;
+    padding-top:10px ;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.PrescriptionCustom #Object{
+    width: 52em;
+    height: 7em;
+    position: relative;
+    margin: auto;
+    padding-top: 30px ;
+    padding-left: 90px;
+    
+}
+
+.PrescriptionCustom #InputNameP {
+    width: 17em;
+    height: 3em;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 40px;
+    
+}
+.PrescriptionCustom #InputNameP:hover{
+    border-style: solid;
+    border-color: rgb(3, 194, 241);
+}
+.PrescriptionCustom .BtnOb{
+    width: 28em;
+    height: 7em;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    padding-right: 10px;
+}
+.PrescriptionCustom .BtnOb #Btn1{
+    margin-left: 7rem;
+    width: 9em;
+    
+}
+.PrescriptionCustom button {
+    margin-right: 15px;
+    width: 8em;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #83214a59;
+    color: cornsilk;
+    /* margin-left: 8.8em; */
+}
+.PrescriptionCustom button:hover {
+    border-color: rgb(3, 194, 241);
+    background-color:#a30f4d69 ;
+}
+
+.PrescriptionCustom .NewInput2{
+    width: 60em;
+    height: 21em;
+    margin-bottom: 3rem ;
+    background-color: #1b255675;
+    border-radius: 15px;
+    position: relative;
+    padding-top:10px ;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+
+}
+.PrescriptionCustom #Object2{
+    width: 60em;
+    height: 5em;
+    position: relative;
+    margin: auto;
+    padding-top: 15px ;
+    padding-left: 58px;
+    padding-bottom: 5px;
+    
+}
+
+.PrescriptionCustom #InputNameP2 {
+    width: 15em;
+    height: 3em;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 40px;
+    
+}
+.PrescriptionCustom #InputNameP2:hover{
+    border-style: solid;
+    border-color: rgb(3, 194, 241);
+}
+.PrescriptionCustom  .ContractNo {
+    display:inline-block;
+    width: 15em;
+    margin-right: 40px;
+    
+}
+.PrescriptionCustom  .ContractNo .css-yk16xz-control {
+    border-radius: 10px;
+    
+    
+}
+
+.PrescriptionCustom  .ContractNo .css-yk16xz-control:hover {
+    border-color: turquoise;
+    
+    
+}
+
+.PrescriptionCustom .SelectStyle {
+    height: 50px;
+    width: 300px;
+    float: right;
+    display:block;
+    
+}
+.css-2613qy-menu{
+    text-align: center;
+}
+
+.PrescriptionCustom .striped{
+    width: 22rem;
+
+  }
+
+  .PrescriptionCustom .scroll {
+    overflow: auto;
+    /* overflow-y:scroll; */
+    /* overflow-x:scroll; */
+    width: 22rem;
+    height: 48em;
+    border-radius: 10px;
+    background-color: #28428bd4 ;
+    color: #fff;
+    margin: auto;
+   
+   
+  }
+
+
+
+
+
+
+/* ///////////////////////////////////UPDATE///////////////////////////// */
+
+ .NewPrescription2{
+    width: 100em;
+    padding-top: 12rem;
+    padding-left: 11rem;
+}
+
+
+.BtnOb2{
+    width: 28em;
+    height: 7em;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    padding-right: 10px;
+}
+.BtnOb2 button{
+    margin-top: 1rem;
+}
+.BtnOb2 button:hover{
+    background-color: rgba(149, 230, 27, 0.836);
+    color: #000;
+}
+
+
+ .NewInputUp{
+    width: 30em;
+    height: 15em;
+    margin: auto;
+    background-color: #278ea0a1;
+    border-radius: 15px;
+    position: relative;
+    
+}
+
+ #ObjectUp{
+    width: 52em;
+    height: 7em;
+    position: relative;
+    padding-top: 3rem ;
+    left: 10rem;
+
+    
+}
+
+#ObjectUp input {
+    padding-right: 1rem;
+}
+
+.CalumPopup-up #PopupInput-up {
+    background: #7862f1ab;
+    border-radius: 20px;
+    width: 4rem;
+    color: #fff;
+    height: 1.6rem;
+    border: 0.5px solid green;
+}
+.CalumPopup-up #PopupInput-up:hover {
+    
+    background-color: aqua;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////popup////////////////////////////////////// */
+
+.PrescriptionCustom .CalumPopup{
+    width: 5em;
+    height: 5em;
+    position: relative;
+    float: right;
+    margin-right: 100px;
+    z-index: 1;
+}
+.PrescriptionCustom #PopupInput{
+    background-image: linear-gradient(45deg ,rgb(168, 48, 78), rgb(9, 17, 129));
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+}
+.PrescriptionCustom #PopupInput:hover{
+    background-image: linear-gradient(-45deg , rgb(9, 17, 129),rgb(168, 48, 78));
+
+
+    
+}
+
+/* ////////////////////////////////popup////////////////////////////////////// */ 

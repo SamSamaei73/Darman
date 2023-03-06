@@ -1,0 +1,283 @@
+.MainReaport{
+    width: 100%;
+    min-height: 100vh;
+    display: flex ;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/MpmFB0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 1rem;
+}
+.MainReaport .FilterReaport{
+  width: 80%;
+  padding: 2rem;
+  background-color: #1b2556b9;
+  margin-top: 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  direction: rtl;
+}
+.MainReaport .FilterReaport .SearchBox{
+  width: 16rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+  color: #fff;
+}
+.MainReaport .FilterReaport select{
+   width: 90%;
+   height: 2.5rem;
+   text-align: center;
+   border-radius: 5px;
+   border: none;
+   font-size: 20px;
+}
+.MainReaport .FilterReaport .infoReaport{
+   width: 20rem;
+   height: 8rem;
+   display: flex;
+  align-items: center;
+  flex-direction: column; 
+}
+.MainReaport .FilterReaport .infoReaport .item{
+   width: 100%;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+   color: #fff;
+}
+.MainReaport .FilterReaport .infoReaport .item h4{
+   margin: 0 5px;
+}
+.MainReaport .PrintReaport{
+   padding: 10px;
+   border: none;
+   font-size: 20px;
+   width: 10rem;
+   border-radius: 5px;
+   background-color: goldenrod;
+   color: #fff;
+}
+.MainReaport .PrintReaport:focus{
+   outline: none;
+}
+
+.pirintPage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.ReaportForm{
+    width: 90%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    padding: 2rem;
+    flex-direction: column;
+}
+.ReaportForm .PaperBorder{
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+.ReaportForm .PaperBorder .headerReaport{
+   width: 100%;
+   height: 5rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 2rem;
+   border-bottom: 2px groove black ;
+}
+.ReaportForm .PaperBorder .headerReaport .LogoReaport{
+   width: 9rem;
+}
+.ReaportForm .PaperBorder .headerReaport .titleRea{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.ReaportForm .PaperBorder .headerReaport .titleRea h4{
+   color: #001E64;
+}
+
+.ReaportForm .PaperBorder .headerReaport .date{
+   width: 11rem;
+   height: 100%;
+   display: flex;
+    align-items: center;
+    flex-direction: column;
+   padding: 10px;
+}
+.ReaportForm .PaperBorder .headerReaport .date h6{
+  width: 100%;
+  text-align: right;
+  font-size: 17px;
+
+}
+.ReaportForm .PaperBorder .MainReaportNew{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  flex-direction: column;
+
+}
+.ReaportForm .PaperBorder .MainReaportNew .headRow{
+  width: 100%;
+  height: 3rem;
+  background-color: rgb(70, 70, 70);
+  display: flex;
+  justify-content: space-between;
+  direction: rtl;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  position: relative;
+  color: #fff;
+}
+.ReaportForm .PaperBorder .MainReaportNew .headRow .dataHead{
+  width: 95px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid black;
+  margin-bottom: -0.5rem;
+
+}
+.ReaportForm .PaperBorder .MainReaportNew .headRow  .dataHead:nth-child(1){
+  width: 2rem;
+  font-size: 16px;
+}
+.ReaportForm .PaperBorder .MainReaportNew .headRow .dataHead:nth-child(5){
+  width: 120px;
+}
+.ReaportForm .PaperBorder .MainReaportNew .headRow .dataHead:nth-child(7){
+  width: 40px;
+  font-size: 17px;
+}
+.ReaportForm .PaperBorder .MainReaportNew .headRow .dataHead:nth-child(11){
+    width: 120px;
+
+}
+.ReaportForm .PaperBorder .MainReaportNew .headRow .dataHead:nth-child(12){
+    border-left: none;
+    width: 120px;
+
+
+}
+.ReaportForm .PaperBorder .MainReaportNew .Row  .dataHead:nth-child(1){
+  width: 2rem;
+}
+.ReaportForm .PaperBorder .MainReaportNew .Row .dataHead:nth-child(5){
+  width: 120px;
+}
+.ReaportForm .PaperBorder .MainReaportNew .Row .dataHead:nth-child(7){
+  width: 40px;
+}
+.ReaportForm .PaperBorder .MainReaportNew .Row .dataHead:nth-child(11){
+    width: 120px;
+
+
+}
+.ReaportForm .PaperBorder .MainReaportNew .Row .dataHead:nth-child(12){
+    border-left: none;
+    width: 120px;
+
+
+}
+
+.ReaportForm .PaperBorder .MainReaportNew .Row{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    font-size: 17px;
+    position: relative;
+    border-bottom: 1px solid black;
+  }
+.ReaportForm .PaperBorder .MainReaportNew .Row:nth-child(2n+1){
+    background-color: rgba(128, 128, 128, 0.445);
+  }
+  .ReaportForm .PaperBorder .MainReaportNew .Row .dataHead{
+    width: 95px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-left: 1px solid black;
+    margin-bottom: -0.5rem;
+    font-size: 16px;
+  
+  }
+  .css-2b097c-container{
+    color: black !important;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .totalPrice{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.445);
+    border-radius: 5px;
+    border: 3px solid black;
+    margin-top: 10px;
+    direction: rtl;
+    padding: 0 1rem;
+  }
+  .totalPrice .total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .totalPrice .total h3{
+    margin: 0 5px;
+  }
+  .totalPrice .payIt{
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .currencyStylePrice{
+    background-color: #001e6400;
+    border: none;
+    color: #fff;
+    width: 10rem;
+  }
+  .tableInput{
+    background-color: #001e6400;
+    border: none;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+  .currencyStylePrice:focus{
+    background-color: #001e6400;
+    
+  }

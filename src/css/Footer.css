@@ -1,0 +1,20 @@
+#footerinfo.container {
+    max-width: 1300px;
+    margin: auto;
+    
+}
+#footerinfo {
+    height: 8vh;
+    background-color: #2954b59c;
+
+}
+#footerinfo .left-info {
+    height: 30px;
+    width: 100%;
+    padding: 25px 20px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

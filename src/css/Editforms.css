@@ -1,0 +1,80 @@
+
+#Edit-form .container{
+    position:absolute;
+    max-width: 1300px;
+    margin: auto;
+    box-sizing: border-box;
+    height: 40rem;
+}
+#Edit-form .edit-info {
+    position: relative;
+    background-color: rgba(55, 161, 78, 0.61);
+    width: 90%;
+    margin: 4rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    
+    
+}
+/* #Edit-form .css-yk16xz-control {
+       background-color: red;
+       height: 1rem !important;
+        width: 10rem !important;
+        margin: 10px;
+} */
+#Edit-form .css-2b097c-container {
+        margin-left: 10px;
+}
+
+#Edit-form .edit-input {
+    padding: 0.5rem;
+    float: left;
+}
+#Edit-form .edit-input label {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#Edit-form .edit-input input {
+    border-radius: 5px;
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+}
+#Edit-form .edit-input select {
+    border-radius: 5px;
+    height: 2rem;
+    width: 10rem;
+    text-align: center;
+}
+#Edit-form  button {
+    border-radius: 10px;
+    height: 2rem;
+    width: 8rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    background: rgba(228, 113, 71, 0.63);
+    font-size: 18px;
+    color: #fff;
+}
+#Edit-form  button:hover {
+    background-color: aqua;
+    color: black;
+}
+#Edity #PopupInput {
+    background: #7862f1ab;
+    border-radius: 20px;
+    width: 4rem;
+    color: #fff;
+    height: 1.6rem;
+    border: 0.5px solid green;
+}
+#Edity #PopupInput:hover {
+    background: aqua;
+    color: black;
+    flex-wrap: wrap;
+}
+#Edity .css-2b097c-container {
+   color: black;
+   text-align: center;
+}

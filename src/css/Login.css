@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} 
+
+.LoginCustom {
+    margin: auto;
+  max-width: 100%;
+  padding: 30px 20px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+}
+.LoginCustom .back-logo{
+    position:absolute;
+    float: left;
+    margin-left: 50rem;
+}
+.LoginCustom .back-logo img{
+    width: 3rem;
+    height: 3.5rem;
+}
+.LoginCustom .container{
+    height: 100%;
+}
+.LoginCustom .form-wrap{
+    width: 30em;
+    height: 32rem;
+    padding-top: 0 10rem;
+    background-color: #25319cce;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    
+}
+.LoginCustom h2 {
+    color: cornsilk;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.LoginCustom img{
+    display: block;
+    margin: auto;
+    width: 10em;
+    height: 10em;
+}
+.LoginCustom .form-group{
+    position: relative;
+    display: block;
+    margin: auto;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.LoginCustom input{
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Vazir';
+    font-weight: bold;
+
+}
+.LoginCustom h2 {
+    font-family: 'Kamran';
+}
+.LoginCustom input:hover{
+    border-color:aqua;
+    
+}
+.LoginCustom button {
+    width: 15em;
+    height: 3em;
+    margin-left: 7.7em;
+    border-radius: 10px;
+    background-color: #dd0a9e93;
+    border-color: 3px solid  black;
+    color: azure;
+    font-family: 'vazir';
+    
+}
+.LoginCustom button:hover 
+{
+    background-color: aqua;
+    color: black;
+}
+.LoginCustom .CheckBox {
+    width: 200px;
+    height: 70px;
+    position: relative;
+    margin: 20px auto;
+}
+.LoginCustom label {
+    color: darksalmon;
+    position: relative;
+    left: 80px;
+    margin-top: 10px;
+    top: 5px;
+    
+}
+.LoginCustom #LogCheckBox {
+    position: relative;
+    bottom: 30px;
+    display: inline;
+    margin-left: 180px;
+    width: 20px;
+}
+#Edity #PopupInput2 {
+    background: #7862f1ab;
+    border-radius: 20px;
+    width: 9rem;
+    color: #fff;
+    height: 3rem;
+    border: 0.5px solid green;
+} 

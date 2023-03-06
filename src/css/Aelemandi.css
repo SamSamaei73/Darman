@@ -1,0 +1,202 @@
+.Aelemandi{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/cyBn5z.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+    font-family:'VazirDigit', 'Vazir' ;
+}
+.Aelemandi .MainAele{
+    width: 90%;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Aelemandi .MainAele .prsBox {
+    width:30rem;
+    height: 7rem;
+    background-color: #47ddffd7;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Aelemandi .lableStyle {
+    font-size: 17px;
+}
+.Aelemandi  .inputAele {
+    font-size: 17px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.Aelemandi  .SelectAele {
+    font-size: 17px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 12rem;
+    
+}
+.Aelemandi  .DatePicker__input    {
+   width: 12rem !important;
+   height: 30px !important;
+    
+}
+.Aelemandi  .btnPlace {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Aelemandi  .btnPlace  .btnStylE{
+    width: 10rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #123A78;
+    color: #fff;
+  box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+
+
+}
+.Aelemandi  .btnPlace  .btnStylE:active{
+   box-shadow: none;
+
+}
+.Aelemandi .MainAele .AddpersonAele {
+    width:100%;
+    background-color: #47ddffd7;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    direction: rtl;
+}
+.Aelemandi .MainAele .AddpersonAele .itemPrs {
+    width: 15rem;
+    height: 5rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.Aelemandi .Condition {
+  width: 1.2rem;
+}
+ .tableAele {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #123A78;
+    padding: 0.5rem;
+    border-radius: 10px;
+    
+
+}
+ .aeleTable {
+    color: #fff;
+    direction: rtl;
+
+}
+ .aeleTable .HeadAele {
+    background-color: #47ddffd7;
+}
+ .aeleTable .celAele {
+    width: 10rem;
+    text-align: center;
+}
+ .aeleTable .LastName {
+    width: 17rem;
+    text-align: center;
+}
+.Aelemandi  .btnAele {
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: #fff;
+    width: 5rem;
+}
+
+.Aelemandi .MainAele .switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+    margin: 5px;
+  }
+  
+  .Aelemandi .MainAele .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .Aelemandi .MainAele .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+
+  }
+  
+  .Aelemandi .MainAele .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+
+  }
+  
+  .Aelemandi .MainAele input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  .Aelemandi .MainAele  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  .Aelemandi .MainAele input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .Aelemandi .MainAele .slider.round {
+    border-radius: 34px;
+  }
+  
+  .Aelemandi .MainAele .slider.round:before {
+    border-radius: 50%;
+  }
+

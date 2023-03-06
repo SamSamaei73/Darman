@@ -1,0 +1,21 @@
+.forms {
+  margin: 50px;
+  height: 70mm;
+  width: 310mm;
+  background-color: coral;
+  position: relative;
+}
+.part_form {
+  position: absolute;
+  margin: 20px;
+  height: 50mm;
+  width: 300mm;
+  background-color: cornflowerblue;
+}
+.part_form label_1 {
+  font-weight: bold;
+}
+#inputStyle {
+  background-color: #6d7a84;
+  color: aliceblue;
+}

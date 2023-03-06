@@ -1,0 +1,212 @@
+
+#NavbarInfo{
+  width: 100%;
+  padding: 0 20px;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  /* position: relative;
+  width: 280mm;
+  height: 20mm;
+  left: 150mm;
+  top: 1.2em; */
+  direction: rtl;
+  box-sizing: border-box;
+  text-align: right !important;
+  
+}
+
+.headLogo {
+  width: 10rem;
+  height: 60%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LogoStyle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.Navbar {
+  display: flex;
+}
+
+.MenueTools{
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+#menu {
+  position: relative;
+  float: right;
+  width: 40rem;
+  padding: 0 20px;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.15);
+  background: #2954b59c;
+  z-index: 1;
+}
+
+#menu,
+#menu ul {
+  list-style: none;
+  position: relative;
+}
+
+#menu > li {
+  float: right;
+  position: relative;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.25);
+  perspective: 1000px;
+}
+
+#menu > li:first-child {
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: -1px 0 0 rgba(0, 0, 0, 0.1), 1px 0 0 rgba(255, 255, 255, 0.25);
+}
+
+#menu a {
+  display: block;
+  position: relative;
+  z-index: 10;
+  padding: 13px 20px 13px 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  font-family: 'VazirDigit', 'Vazir';
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: -0.05em;
+  background: transparent;
+  transition: all 0.25s ease-in-out;
+}
+
+#menu > li:hover > a {
+  position: relative;
+  background: #2954b59c;
+  color: rgba(0, 223, 252, 1);
+  text-shadow: none;
+}
+
+#menu li ul {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 200px;
+  padding: 0;
+  opacity: 0;
+  visibility: hidden;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background: transparent;
+  overflow: hidden;
+  transform-origin: 50% 0%;
+  text-align: right;
+
+}
+
+#menu li:hover ul {
+  padding: 15px 0;
+  background: #2954b59c;
+  opacity: 1;
+  visibility: visible;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+  animation-name: swingdown;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+@keyframes swingdown {
+  0% {
+    opacity: 0.99999;
+    transform: rotateX(90deg);
+  }
+  30% {
+    transform: rotateX(-20deg) rotateY(5deg);
+    animation-timing-function: ease-in-out;
+  }
+  65% {
+    transform: rotateX(20deg) rotateY(-3deg);
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    transform: rotateX(0);
+    animation-timing-function: ease-in-out;
+  }
+}
+
+#menu li li a {
+  padding-left: 15px;
+  font-weight: 400;
+  color: #ddd;
+  text-shadow: none;
+  border-top: dotted 1px transparent;
+  border-bottom: dotted 1px transparent;
+  transition: all 0.15s linear;
+  
+}
+
+#menu li li a:hover {
+  color: rgba(0, 223, 252, 1);
+  border-top: dotted 1px rgba(255, 255, 255, 0.15);
+  border-bottom: dotted 1px rgba(255, 255, 255, 0.15);
+  background: rgba(0, 223, 252, 0.02);
+}
+.LogoDiv{
+  position: absolute;
+  margin-top: 1.5rem;
+  width: 15em;
+  height: 6em;
+  padding: 0;
+  /* z-index: 2; */
+}
+.SearchLogo {
+  margin-left: 1rem;
+  position: absolute;
+  float: left;
+  bottom: 52px;
+  left: 10px;
+}
+
+.LoginLogo{
+  display: block;
+ float: left;
+ margin-right: 3rem;
+ position: absolute;
+ bottom: 52px;
+ right: 95px;
+}
+.LogoDiv .SearchLogo img {
+  width: 35px;
+  cursor: pointer;
+}
+.LogoDiv .LoginLogo img {
+  width: 35px;
+  cursor: pointer;
+}
+.LogoDiv .SearchLogo img:hover {
+  width: 60px;
+  position: relative;
+}
+.LogoDiv .LoginLogo img:hover {
+  width: 60px;
+  position: relative;
+}

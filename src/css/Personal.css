@@ -1,0 +1,218 @@
+
+#Personal-style {
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem;
+}
+#Personal-style #personalTitle{
+  width: 50%;
+  height: 4rem;
+  margin-top: -2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.103);
+  box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+
+}
+#Personal-style #personalTitle h3{
+  margin-top: 8px;
+  color: #fff;
+
+}
+#Personal-style .back-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+}
+#Personal-style .back-btn img {
+    width: 80%;
+    display: flex;
+    
+}
+#Personal-style .back-btn img:hover {
+    width: 100%;
+}
+#Personal-style .headPersonal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Personal-style .personal-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 1rem;
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    height: 100%;
+}
+#Personal-style .personal-nav {
+    width: 20rem;
+    display: flex;
+    
+}
+#Personal-style .personal-nav img {
+    width: 60%;
+}
+#Personal-style .info-search {
+    /* background-color: #32407B; */
+    background-image:linear-gradient(30deg ,#223583d2,#7c2555bb);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#Personal-style .serchDiv{
+   width: 13rem;
+   height: 5rem;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding: 0.5rem;
+}
+#Personal-style .serchDiv h5{
+   color: #fff;
+}
+#Personal-style .BtnPersonal{
+   width: 10rem;
+   padding: 0.5rem;
+   border-radius: 5px;
+   border: none;
+   box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+   background-color: #161D4A;
+   color: #fff;
+   font-size: 17px ;
+}
+
+
+
+
+
+
+
+
+
+
+#Personal-style .info-search select {
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.856);
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+}
+#Personal-style .info-search select:focus {
+    outline: 0;
+}
+#Personal-style .info-search select:hover {
+    border-color: aqua;
+}
+#Personal-style .table-personal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    
+}
+#Personal-style .scroll {
+    overflow: auto;
+    /* overflow-y:scroll; */
+    /* overflow-x:scroll; */
+    width: 73rem ;
+    height: 40em;
+    border-radius: 10px;
+    background-color: #28428bd4 ;
+    color: #fff;
+    margin: auto;
+  
+   
+  }
+  #Personal-style .striped{
+    width: 100%;
+  }
+  #Personal-style .totalPerson{
+    background-image:linear-gradient(30deg ,#223583d2,#7c2555bb);
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    }
+  #Personal-style .totalPerson .totalShow{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0 1rem;
+      margin: 2px;
+    }
+  #Personal-style .totalPerson .totalShow .totalInput{
+      border-radius: 5px;
+      width: 9rem;
+      height: 2rem;
+      color: #fff;
+      font-size: 25px;
+      background-color: rgba(255, 255, 255, 0);
+      text-align: center;
+      border: none;
+      text-align: left;
+      margin-left: -1.5rem;
+      cursor: no-drop;
+    }
+  #Personal-style .totalPerson .totalShow .totalInput:focus{
+      border: none;
+    }
+  #Personal-style .totalPerson .totalPrice{
+      display: flex;
+    }
+
+
+
+  #Personal-style .totalPerson .totalShow h5{
+      color: #fff;
+      font-family: 'Vazir';
+      margin: 0 2rem;
+    }
+
+    @media (max-width: 950px) {
+        #Personal-style .totalPerson .totalShow h5{
+            font-size: 15px;
+            order: 1;
+            margin-bottom: 0.5rem;
+          }
+          #Personal-style .totalPerson .totalShow .totalPrice{
+            order: 2;
+            margin-left: -0.5rem;
+          }
+          #Personal-style .totalPerson .totalShow .totalPrice h5{
+            font-size: 18px;
+          }
+          #Personal-style .totalPerson .totalShow .totalInput{
+              order: 1;
+          }
+    }
+
+

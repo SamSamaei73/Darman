@@ -1,0 +1,113 @@
+
+.SpecificCustom .BodyStyle{
+   width: 100%;
+    margin: auto;
+}
+
+
+
+
+.personBox{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+.personBox
+.personInfo{
+ width: 70%;
+ background-color: #1b2556b9;
+ display: flex;
+ justify-content: space-between;
+ box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+ padding: 2rem;
+ border-radius: 10px;
+ flex-wrap: wrap;
+}
+
+.personInfo .boxItem {
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+.personInfo .boxItem h6 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  width: 90%;
+  text-align: right;
+  font-weight: 500;
+}
+.personInfo .boxItem .personInput {
+  border-radius: 5px;
+  height: 2.5rem;
+  width: 12rem;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+}
+.personInfo .fonty{
+  font-size: 14px !important;
+}
+.css-2b097c-container{
+  width: 12rem;
+}
+
+.SpecificCustom .CalumPopup{
+  width: 5em;
+  height: 5em;
+  position: relative;
+  float: right;
+  margin-right: 100px;
+}
+.SpecificCustom #PopupInput{
+  background-image: linear-gradient(45deg ,rgb(168, 48, 78), rgb(9, 17, 129));
+  box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  color: #fff;
+}
+.SpecificCustom #PopupInput:hover{
+  background-image: linear-gradient(-45deg , rgb(9, 17, 129),rgb(168, 48, 78));
+}
+.SpecificCustom .personInfo .css-yk16xz-control {
+  border-radius: 5px !important;
+}
+.SpecificCustom .personInfo .css-1pahdxg-control {
+  border-radius: 5px !important;
+}
+
+
+
+.SpecificCustom .striped{
+  width: 100%;
+}
+
+.SpecificCustom .scroll {
+  overflow: auto;
+  /* overflow-y:scroll; */
+  /* overflow-x:scroll; */
+  border-radius: 10px;
+  background-color: #28428bd4 ;
+  color: #fff;
+  margin: auto;
+
+ 
+}
+
+@media (max-width: 1285px) {
+
+  .personBox
+.personInfo
+  {
+   width: 80%;
+   align-items: center;
+   padding: 1.5rem;
+  }
+
+}

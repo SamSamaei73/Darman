@@ -1,0 +1,18 @@
+//export const SERVER_URL = 'http://localhost:58148/api';
+export const SpecificPersonTitle = "نسخه های سرپایی";
+export const BimehTitle = "ثبت بیمه ";
+export const PrescriptionTitle = "ثبت نسخه جدید ";
+export const PacketTitle = "ثبت بسته  ";
+export const ReportsTitle = "لیست خسارت اولیه  ";
+export const SearchTitle = "جستوجو  ";
+export const HomeTitle = "خوش آمدید | سیستم درمان مشانیر";
+export const LoginTitle = "ورود";
+export const PersonalTitle = "گزارش پرسنل";
+
+//ست شده در لوکال ای ای اس سیستم پورت 89
+
+// export const SERVER_URL = "http://localhost:58148/api/";
+export const SERVER_URL = 'http://software/IntranetNew/api/';
+//export const SERVER_URL = "http://localhost:80/ece/api/";
+///49580
+//

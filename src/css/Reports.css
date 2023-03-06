@@ -1,0 +1,115 @@
+#Report-page  {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+#Report-page .navbar-report {
+    width: 100%;
+}
+#Report-page .reportTools {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: first baseline;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+#Report-page .selectReport {
+    margin: 0 20rem;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    background-color: #1b255675;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+#Report-page .tittleReport {
+    height: 3rem;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 0.3rem;
+    background-color: #1b2556b9;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+
+}
+#Report-page .tittleReport h2 {
+    font-family: 'Kamran';
+    font-size: 35px;
+    color: #fff;
+
+}
+
+
+
+#Report-page .inputPrices {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    text-align: center;
+
+}
+#Report-page .inputPrices label{
+    margin: 1rem 0;
+    font-size: 20px;
+    color: #fff;
+}
+
+#Report-page .css-2b097c-container {
+    width: 10rem;
+    margin: auto;
+    margin-bottom: 2rem;
+
+}
+#Report-page .reportTable {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+
+}
+#Report-page .reportInfo {
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#Report-page .reportInfo a{
+    color: #fff;
+    background-color: #ff008c33;
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    font-family: 'Kamran';
+
+}
+#Report-page .reportInfo a:hover{
+    text-decoration: none;
+    padding: 0.7rem;
+    background-color: #ff008c71;
+
+
+}
+
+#Report-page .colum-space {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem;
+    top: 5rem;
+    left: 3rem;
+  }
+  #Report-page .scroll {
+    overflow: auto;
+    /* overflow-y:scroll; */
+    /* overflow-x:scroll; */
+    width: 59.2rem;
+    height: 49em;
+    border-radius: 10px;
+    background-color: #28428bd4 ;
+    color: #fff;
+    margin: auto;
+  
+   
+  }

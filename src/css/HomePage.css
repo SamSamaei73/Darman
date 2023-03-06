@@ -1,0 +1,244 @@
+#home-page *{
+  margin: auto;
+  max-width: 100%;
+  padding: 0 20px;
+}
+#home-page #logo-home{
+  position:absolute;
+  width: 20%;
+  padding: 2rem;
+}
+#home-page body {
+    margin: auto;
+    height: 100%;
+}
+/* #home-page .container{
+  margin: auto;
+  max-width: 100%;
+  overflow: auto;
+  padding: 0 20px;
+  background-color: #374fbb;
+} */
+
+#home-page .navHome {
+    margin: auto;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('../images/186229.jpg') no-repeat center center/cover;
+
+
+}
+#home-page .new-buttonHex{
+    position: absolute;
+    margin-left: 55rem;
+    margin-top: 20rem;
+    padding-left: 3rem;
+    width: 50rem;
+    height: 20rem;
+}
+
+ 
+  #home-page section {
+    width : 960px;
+    margin: auto;
+    padding-top: 15rem;
+    padding-left: 20rem;
+  }
+  
+  
+  #home-page .item , figure {
+    transition : all 225ms ease-out;
+  }
+  
+  #home-page .item {
+    display: block;
+    float      : right;
+    width      : 320px;
+    height     : 100px;
+    position   : relative;
+    margin-top : 50px;
+    border-radius:10px ;
+  }
+  
+  #home-page figure {
+    border-bottom : 4px solid skyblue;
+  }
+  
+  #home-page  div.handle {
+    width    : 64px;
+    height   : 40px;
+    margin   : auto;
+    position : relative;
+    top      : -20px;
+    font-size  : 25px;
+    color      : #fff;
+    background-color : #db5398c4;
+    text-align: center;
+    
+
+  }
+  #home-page  .handle h3 {
+    text-emphasis: center;
+    font-size: 20px;
+    right: 5px;
+    margin-left: -25px;
+    padding-top: 6px;
+    
+
+  }
+  
+  #home-page div.handle:after {
+    display  : block;
+    content  : " ";
+    position : absolute;
+    bottom   : 100%;
+    left     : 0;
+    height: 50px;
+    
+    border-style : solid;
+    border-color : transparent;
+    border-bottom-color : #db5398c4;
+    border-width : 0 32px 15px 32px;
+  }
+  
+  #home-page div.handle:before {
+    display  : block;
+    content  : " ";
+    position : absolute;
+    top      : 100%;
+    left     : 0;
+    
+    border-style : solid;
+    border-color : transparent;
+    border-top-color : #db5398c4;
+    border-width : 15px 32px 0 32px;
+  }
+  
+  #home-page  ul li {
+    opacity    : 0;
+    font-size  : 15px;
+    margin-top : 10px;
+    list-style-type : none;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 2rem;
+    font-family: 'Kamran';
+  }
+  
+  #home-page .item a {
+    margin : auto;
+    opacity: 0;
+    color  : #fff;
+    height: 3rem;
+    width    : 250px;
+    display         : block;
+    background-color: #6750b8;
+    text-decoration : none;
+    font-size       : 25px;
+    font-weight     : bold;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 10px;
+    font-family: 'Kamran';
+  }
+  
+  
+  #home-page  .item.ii a {
+    background-color : #374fbb;
+  }
+  #home-page  .item.ii a:hover {
+   border-color: aqua;  }
+  
+  
+  
+  #home-page .item h2 {
+    height   : 70px;
+    position : absolute;
+    bottom   : 0;
+    left     : 0;
+    width    : 100%;
+    color    : #4e4e4d;
+    margin-left: 2rem;
+  }
+  
+  #home-page  h2 > span {
+    display : block;
+    color   : #787876;
+    font-size   : 13px;
+    font-style  : italic;
+    font-weight : normal;
+  }
+  
+  #home-page .item:hover {
+    /* cursor     : pointer; */
+    margin-top : 0;
+    height     : 300px;
+    transition : all 225ms;
+    box-shadow : 0 0 5px 1px #aaa;
+    background : rgb(55 152 181 / 69%);
+  }
+  
+  #home-page .item:hover ul {
+    height : 100px;
+  }
+  
+  #home-page .item:hover ul li:first-child {
+    transition : all 225ms .222s;
+    opacity : 1;
+  }
+  
+  #home-page .item:hover ul li:nth-child(2) {
+    transition : all 225ms .299s;
+    opacity : 1;
+  }
+  
+  #home-page .item:hover ul li:last-child {
+    transition : all 225ms .333s;
+    opacity : 1;
+  }
+  
+  #home-page .item:hover a {
+    transition : all 225ms .7s;
+    opacity  : 1;
+  }   
+  
+  #home-page .item:hover figure {
+    margin-top : 0;
+    height     : 184px;
+    transition : height 225ms;
+  }
+  
+  #home-page .item:hover .handle {
+    transition : height 225ms;
+  }
+  
+  #home-page .item.i:hover h2 {
+    color : #e8554e;
+    text-shadow : 0 1px 1px skyblue;
+    transition : all 225ms .8s;
+  }
+  
+  #home-page  .item.ii:hover h2 {
+    color : #81bb71;
+    text-shadow : 0 1px 1px skyblue;
+    transition : all 225ms .8s;
+  }
+  
+  #home-page .item.iii:hover h2 {
+    color : #E26DA1;
+    text-shadow : 0 1px 1px skyblue;
+    transition : all 225ms .8s;
+  }
+  
+  #home-page .cover:after , .cover:before {
+    display: table ;
+    content: " ";
+    clear : both;
+  }
+  #home-page .primery {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
